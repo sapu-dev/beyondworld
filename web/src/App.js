@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
+import Navbar from "./components/header/Navbar";
+import Layout from "../src/containers/layout";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Sapumal Thepulangoda</header>
+      <Layout />
     </div>
   );
 }
