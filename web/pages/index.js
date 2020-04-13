@@ -1,3 +1,3 @@
-import Layout from "../src/containers/layout";
+import Layout from "./src/containers/layout";
 
 export default () => <Layout />;
