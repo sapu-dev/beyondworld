@@ -4,6 +4,10 @@ const HeaderSection = () => (
   <div>
     <Header>
       <title>beyound the world</title>
+      <link
+        rel="stylesheet"
+        href="https://bootswatch.com/4/cerulean/bootstrap.min.css"
+      />
     </Header>
     <Navbar />
   </div>

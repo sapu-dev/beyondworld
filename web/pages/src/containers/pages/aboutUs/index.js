@@ -1,1 +1,6 @@
-export default () => <div>about</div>;
+import Layout from "../../layout";
+export default () => (
+  <div>
+    <Layout>about</Layout>
+  </div>
+);
