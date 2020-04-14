@@ -9,27 +9,27 @@ const Navbar = () => (
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <Link href="/">
-              <a className="nav-link">home</a>
+              <a className="nav-link">Home</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/src/containers/pages/aboutUs" className="nav-link">
-              <a className="nav-link">about</a>
+            <Link href="/about" className="nav-link">
+              <a className="nav-link">About Us</a>
             </Link>{" "}
           </li>
           <li className="nav-item">
-            <Link href="/src/containers/pages/orders">
-              <a className="nav-link">oders</a>
+            <Link href="/oders">
+              <a className="nav-link">Oders</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/src/containers/pages/products">
-              <a className="nav-link">product</a>
+            <Link href="/products">
+              <a className="nav-link">Products</a>
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/src/containers/pages/contactUs">
-              <a className="nav-link">contact</a>
+            <Link href="/contact">
+              <a className="nav-link">Contact Us</a>
             </Link>
           </li>
         </ul>
